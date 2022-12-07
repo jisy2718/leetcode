@@ -1,0 +1,44 @@
+# 같은 Table을 2개보면서, 1개 Table의 값들 조건에 맞게 지우면 됨
+delete P1 from Person P1, Person P2
+where P1.email = P2.email and P1.id > P2.id;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
