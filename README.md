@@ -1,5 +1,8 @@
 # leetcode
 
+### 이전에 풀었던 기록
+[leetcode](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md)
+
 ### SQL Study Plan 1
 | 번호    | 테이블개수 |사용문법  |설명      | 해결방법       | 제출본     | 참고하기|
 | ----- | -----------|-------- |---------- | ---------- | ---------- |-------------|
