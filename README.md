@@ -31,3 +31,5 @@
 ## SQL
 [column의 min, max 값으로 column 나누기](https://stackoverflow.com/questions/55438720/how-to-divide-each-row-of-column-by-its-max-min-value-sql)
 + `select col1/(max(col1) over ()) from table`
+
+[row to column](https://stackoverflow.com/questions/1241178/mysql-rows-to-columns)
