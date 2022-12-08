@@ -1,4 +1,4 @@
-# leetcode
+## leetcode
 
 ### 이전에 풀었던 기록
 [leetcode](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md)
@@ -26,3 +26,8 @@
   + [511번 partition으로 푸는 것 참고](https://leetcode.com/problems/game-play-analysis-i/discuss/2425044/MySQL-2-Different-Approach-oror-Beginner-levelororSimple-Short-Solution)
   + [partition쓰는이유](https://hoing.io/archives/7909)
   + [partition과 groupby차이](https://towardsdatascience.com/how-to-use-group-by-and-partition-by-in-sql-f3d241846e3e)
+
+
+## SQL
+[column의 min, max 값으로 column 나누기](https://stackoverflow.com/questions/55438720/how-to-divide-each-row-of-column-by-its-max-min-value-sql)
++ `select col1/(max(col1) over ()) from table`
