@@ -19,7 +19,10 @@
 |**1667**|1| substr, concat, lower, upper | name column의 첫글자만 대문자로, 나머지는 소문자로 바꾸기 | substr로 글자 자르고, concat으로 합치기 | [1667-fix-names-in-a-table](./1667-fix-names-in-a-table) ||
 |**1484**|1| group_concat | 1개 column의 여러 row 값들을 ',' 로 구분지어서 1개 row로 넣기 | group by 와 group_concat을 이용 | [1484-group-sold-products-by-the-date](./1484-group-sold-products-by-the-date)||
 |1527|1|like '%' | 특정 문자열로 시작되는 row들 찾기 ||[1527-patients-with-a-condition](./1527-patients-with-a-condition)||
-
+|**day4 union & select**|
+|1965|2|union| 같은 column을 가지는 2개 table에서, 서로 missing인 값 찾기| |[1965-employees-with-missing-information](./1965-employees-with-missing-information)|| 
+|1795|1|union, select에 string 이용| col1, col2, col3을 col 한개로 줄이면서, 값을 row로 넣어줘야 함||[1795-rearrange-products-table](./1795-rearrange-products-table)|| 
+|0608|1|case when| 이진트리에서 Root, Inner, Leaf 구분하기 | case when 이용하는데, Inner가 가장 많으므로, Inner를 가장 먼저 캐치하면, 속도가 빠르다| [0608-tree-node](./0608-tree-node)||
 
 
 + 첫 로그인 날짜 구하기
