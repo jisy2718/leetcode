@@ -1,9 +1,21 @@
-## leetcode
 
-### 이전에 풀었던 기록
+
+## 1. SQL
+[column의 min, max 값으로 column 나누기](https://stackoverflow.com/questions/55438720/how-to-divide-each-row-of-column-by-its-max-min-value-sql)
++ `select col1/(max(col1) over ()) from table`
+
+[row to column](https://stackoverflow.com/questions/1241178/mysql-rows-to-columns)
+
+[union과 order by 함께쓰는 방법](https://stackoverflow.com/questions/3531251/using-union-and-order-by-clause-in-mysql)
+
+
+
+## 2. leetcode
+
+### [1] 이전에 풀었던 기록
 [leetcode](https://github.com/jisy2718/TIL/blob/master/SQL/leetcode.md)
 
-### SQL Study Plan 1
+### [2] SQL Study Plan 1
 | 번호    | 테이블개수 |사용문법  |설명      | 해결방법       | 제출본     | 참고하기|
 | ----- | -----------|-------- |---------- | ---------- | ---------- |-------------|
 |**day1 select**|||||||
@@ -30,9 +42,3 @@
   + [partition쓰는이유](https://hoing.io/archives/7909)
   + [partition과 groupby차이](https://towardsdatascience.com/how-to-use-group-by-and-partition-by-in-sql-f3d241846e3e)
 
-
-## SQL
-[column의 min, max 값으로 column 나누기](https://stackoverflow.com/questions/55438720/how-to-divide-each-row-of-column-by-its-max-min-value-sql)
-+ `select col1/(max(col1) over ()) from table`
-
-[row to column](https://stackoverflow.com/questions/1241178/mysql-rows-to-columns)
