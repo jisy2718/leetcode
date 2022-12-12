@@ -36,6 +36,11 @@
 |1795|1|union, select에 string 이용| col1, col2, col3을 col 한개로 줄이면서, 값을 row로 넣어줘야 함||[1795-rearrange-products-table](./1795-rearrange-products-table)|| 
 |0608|1|case when| 이진트리에서 Root, Inner, Leaf 구분하기 | case when 이용하는데, Inner가 가장 많으므로, Inner를 가장 먼저 캐치하면, 속도가 빠르다| [0608-tree-node](./0608-tree-node)||
 |**0176**|1| offset, limit, select null| 2번째로 높은 salary 구하는 문제 | limit와 offset을 이용해 2번째 salary 선택하고, 없는 경우 null을 얻기 위해, select 한 번 더 진행|[0176-second-highest-salary](./0176-second-highest-salary)||
+|**day5 union**|
+|0175|2|left join, using | 2개 테이블  join하는 문제| left join에서 left에 없는 right table 들의 값은 null로 채워진다.| [0175-combine-two-tables](./0175-combine-two-tables)| [join에서 column name이 같다면, on 대신 using 사용 가능하고, 똑같은 의미와 성능을 가짐](https://leetcode.com/problems/combine-two-tables/discuss/1757541/Simple-2-lines-with-explanation.-(-You'll-love-it-guaranteed.))|
+|1581|2| left join, using | 방문자 table과 거래 table 주어지고, 거래 없는 방문자 찾는 문제 | left join 후에 거래가 null 인 것 찾아주면 됨 | [1581-customer-who-visited-but-did-not-make-any-transactions](./1581-customer-who-visited-but-did-not-make-any-transactions)||
+|1148|1|distinct| 2 column의 값이 같은 column을 찾는 문제| |[1148-article-views-i](./1148-article-views-i)||
+
 
 
 
