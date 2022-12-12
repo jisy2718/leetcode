@@ -1,13 +1,10 @@
 # visit과 transaction의 jointable을 만든 후에, transaction이 없는 row들만 세어주기
-select customer_id, count(*) count_no_trans
-from
-(select * from Visits v
+select customer_id, count(*) count_no_trans from Visits v
 left join Transactions t
 using(visit_id)
-) visit_transaction_join
-
 where transaction_id is null
 group by customer_id
+
 
 
 
