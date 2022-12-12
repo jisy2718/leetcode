@@ -35,6 +35,8 @@
 |1965|2|union| 같은 column을 가지는 2개 table에서, 서로 missing인 값 찾기| |[1965-employees-with-missing-information](./1965-employees-with-missing-information)|| 
 |1795|1|union, select에 string 이용| col1, col2, col3을 col 한개로 줄이면서, 값을 row로 넣어줘야 함||[1795-rearrange-products-table](./1795-rearrange-products-table)|| 
 |0608|1|case when| 이진트리에서 Root, Inner, Leaf 구분하기 | case when 이용하는데, Inner가 가장 많으므로, Inner를 가장 먼저 캐치하면, 속도가 빠르다| [0608-tree-node](./0608-tree-node)||
+|**0176**|1| offset, limit, select null| 2번째로 높은 salary 구하는 문제 | limit와 offset을 이용해 2번째 salary 선택하고, 없는 경우 null을 얻기 위해, select 한 번 더 진행|[0176-second-highest-salary](./0176-second-highest-salary)||
+
 
 
 + 첫 로그인 날짜 구하기
