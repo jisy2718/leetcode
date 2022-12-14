@@ -40,6 +40,9 @@
 |0175|2|left join, using | 2개 테이블  join하는 문제| left join에서 left에 없는 right table 들의 값은 null로 채워진다.| [0175-combine-two-tables](./0175-combine-two-tables)| [join에서 column name이 같다면, on 대신 using 사용 가능하고, 똑같은 의미와 성능을 가짐](https://leetcode.com/problems/combine-two-tables/discuss/1757541/Simple-2-lines-with-explanation.-(-You'll-love-it-guaranteed.))|
 |1581|2| left join, using | 방문자 table과 거래 table 주어지고, 거래 없는 방문자 찾는 문제 | left join 후에 거래가 null 인 것 찾아주면 됨 | [1581-customer-who-visited-but-did-not-make-any-transactions](./1581-customer-who-visited-but-did-not-make-any-transactions)||
 |1148|1|distinct| 2 column의 값이 같은 column을 찾는 문제| |[1148-article-views-i](./1148-article-views-i)||
+|**day6 union**|
+|**0197**|1| datediff(d1,d2) = d1-d2| 1개 table에서 어제보다 기온이 높은 날짜 구하기 | 1개 table을 2개 가져와서, 서로 비교하기 | [0197-rising-temperature](./0197-rising-temperature)|[to_days / subdate / date_add](https://leetcode.com/problems/rising-temperature/discuss/55619/Simple-Solution) ,[w3_datediff](https://www.w3schools.com/sql/func_mysql_datediff.asp), [timestampdiff](https://extbrain.tistory.com/78)|
+|**0607**|3| where not in (), left join| salesman, companpy, order에 관한 table이 있을 때, 특정 company와 거래 없는 salesman 구하기| 거래가 있는 salesman 구한 후, 해당 목록에 없는 salesman select 하면 됨|[0607-sales-person](./0607-sales-person) | [left join table 순서에 따라 [[null]]이 나오거나, [] 이 나오는데, 이에 대한 공부필요](https://leetcode.com/submissions/detail/859560516/),  `select * from table where col1 not in ()` 은 전체를 가져오지만 `select * from table where col1 not in (null)` 은 아무것도 가져오지 않음|
 
 
 
