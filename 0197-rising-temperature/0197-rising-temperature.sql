@@ -1,7 +1,7 @@
 # table 2개 가져와서, 비교하기
 select w1.id from Weather w1, Weather w2
-where w1.temperature > w2.temperature
-and datediff( w1.recordDate,  w2.recordDate) = 1   # datediff(날짜1,날짜2) = 날짜1 - 날짜2 의 일수
+where datediff( w1.recordDate,  w2.recordDate) = 1
+and w1.temperature > w2.temperature    # datediff(날짜1,날짜2) = 날짜1 - 날짜2 의 일수
 
 
 
