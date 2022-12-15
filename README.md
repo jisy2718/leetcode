@@ -43,7 +43,10 @@
 |**day6 union**|
 |**0197**|1| datediff(d1,d2) = d1-d2| 1개 table에서 어제보다 기온이 높은 날짜 구하기 | 1개 table을 2개 가져와서, 서로 비교하기 | [0197-rising-temperature](./0197-rising-temperature)|[to_days / subdate / date_add](https://leetcode.com/problems/rising-temperature/discuss/55619/Simple-Solution) ,[w3_datediff](https://www.w3schools.com/sql/func_mysql_datediff.asp), [timestampdiff](https://extbrain.tistory.com/78)|
 |**0607**|3| where not in (), left join| salesman, companpy, order에 관한 table이 있을 때, 특정 company와 거래 없는 salesman 구하기| 거래가 있는 salesman 구한 후, 해당 목록에 없는 salesman select 하면 됨|[0607-sales-person](./0607-sales-person) | [left join table 순서에 따라 [[null]]이 나오거나, [] 이 나오는데, 이에 대한 공부필요](https://leetcode.com/submissions/detail/859560516/),  `select * from table where col1 not in ()` 은 전체를 가져오지만 `select * from table where col1 not in (null)` 은 아무것도 가져오지 않음|
-
+|**day7 function : group by**|
+|1141|1| datediff('2022-07-27',date) < n | 날짜별 활성 유저 수를 구하는 문제| 날짜별로 group by 이용해서, select count(distinct user_id)로 활성 유저 수 구하기| [1141-user-activity-for-the-past-30-days-i](./1141-user-activity-for-the-past-30-days-i)||
+|1693|1| group by | date와 name 별로 unique한 것 count 하는 문제 || [1693-daily-leads-and-partners](./1693-daily-leads-and-partners)||
+|1729|1|group by | follower 수 찾기 || [1729-find-followers-count](./1729-find-followers-count) ||
 
 
 
