@@ -47,7 +47,11 @@
 |1141|1| datediff('2022-07-27',date) < n | 날짜별 활성 유저 수를 구하는 문제| 날짜별로 group by 이용해서, select count(distinct user_id)로 활성 유저 수 구하기| [1141-user-activity-for-the-past-30-days-i](./1141-user-activity-for-the-past-30-days-i)||
 |1693|1| group by | date와 name 별로 unique한 것 count 하는 문제 || [1693-daily-leads-and-partners](./1693-daily-leads-and-partners)||
 |1729|1|group by | follower 수 찾기 || [1729-find-followers-count](./1729-find-followers-count) ||
-
+|**day8 function**|
+|[0586-customer-placing-the-largest-number-of-orders](./0586-customer-placing-the-largest-number-of-orders)|1| `group by` & `order by` | 주문자, 주문번호가 주어질 때, 가장 주문 많이한 사람 찾기|||
+|[0511-game-play-analysis-i](./0511-game-play-analysis-i)|1| `group by` or `over (partition by colname)`| 첫 로그인 날짜 구하기 |||[partition by](https://leetcode.com/problems/game-play-analysis-i/discuss/2425044/MySQL-2-Different-Approach-oror-Beginner-levelororSimple-Short-Solution)|
+|[1890-the-latest-login-in-2020](./1890-the-latest-login-in-2020)|1|`group by`, `like '2020%'`| 2020년 마지막 접속 찾기| ||||
+|[1741-find-total-time-spent-by-each-employee](./1741-find-total-time-spent-by-each-employee)|1|`group by`, `select` 문에서 연산 | in 시간, out 시간 column 있을 때 머무른 시간 총합 구하기|||
 
 
 + 첫 로그인 날짜 구하기
