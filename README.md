@@ -52,6 +52,10 @@
 |[0511-game-play-analysis-i](./0511-game-play-analysis-i)|1| `group by` or `over (partition by colname)`| 첫 로그인 날짜 구하기 |||[partition by](https://leetcode.com/problems/game-play-analysis-i/discuss/2425044/MySQL-2-Different-Approach-oror-Beginner-levelororSimple-Short-Solution)|
 |[1890-the-latest-login-in-2020](./1890-the-latest-login-in-2020)|1|`group by`, `like '2020%'`| 2020년 마지막 접속 찾기| ||||
 |[1741-find-total-time-spent-by-each-employee](./1741-find-total-time-spent-by-each-employee)|1|`group by`, `select` 문에서 연산 | in 시간, out 시간 column 있을 때 머무른 시간 총합 구하기|||
+|**day9 control of flow**|
+|[1393-capital-gain-loss](./1393-capital-gain-loss)| 1| `if(조건, 조건만족시, else시)`, `group by`| 주식 사고 판 내역있을 때, 총 이익 계산|||
+|[1407-top-travellers](./1407-top-travellers)| 2| `ifnull(column, 대체값)`, `left join`, `group by`| 명단 테이블과 이동거리 테이블이 있을 때, 각 사람들의 이동거리를 합해서 많이 이동한 순으로 보여주기, left join 후 생기는 null에 대한 처리 해주기||||
+|[1158-market-analysis-i](./1158-market-analysis-i) | 3| `left join & on 조건1  조건2` | `on`에 조건 2개 넣는 쿼리 , `count()`는 `null`값 세지 않음|||
 
 
 + 첫 로그인 날짜 구하기
