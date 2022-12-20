@@ -56,6 +56,11 @@
 |[1393-capital-gain-loss](./1393-capital-gain-loss)| 1| `if(조건, 조건만족시, else시)`, `group by`| 주식 사고 판 내역있을 때, 총 이익 계산|||
 |[1407-top-travellers](./1407-top-travellers)| 2| `ifnull(column, 대체값)`, `left join`, `group by`| 명단 테이블과 이동거리 테이블이 있을 때, 각 사람들의 이동거리를 합해서 많이 이동한 순으로 보여주기, left join 후 생기는 null에 대한 처리 해주기||||
 |[1158-market-analysis-i](./1158-market-analysis-i) | 3| `left join & on 조건1  조건2` | `on`에 조건 2개 넣는 쿼리 , `count()`는 `null`값 세지 않음|||
+|**day10 where**|
+|[0182-duplicate-emails](./0182-duplicate-emails)|1| `group by` & `having count` |중복된 이메일 찾기 |||
+|[1050-actors-and-directors-who-cooperated-at-least-three-times](./1050-actors-and-directors-who-cooperated-at-least-three-times)|1| `group by` & `having`| 2개 이상의 column으로 `group by` 할 경우, `having`에 조건 넣을 때, 이미 그룹화 되어 있다고 생각하고 넣으면 됨 <br> 해당 문제의 경우, `having count(actor_id) >=3`, `having count(*)>=3`, `having count(director_id)>=3` 모두 같음|
+|[1587-bank-account-summary-ii](./1587-bank-account-summary-ii)|2|`left join`, `group by` & `having sum`| 계좌 거래 내역이 주어질 때, 계좌 잔고가 10000 초과인 계좌 구하기|
+|[1084-sales-analysis-iii](./1084-sales-analysis-iii)|2| `left join`, `group by` & `having min max`| 상품 목록과 거래 내역이 주어질 때, 특정 기간에만 거래가 일어난 상품 찾기|
 
 
 + 첫 로그인 날짜 구하기
