@@ -68,3 +68,9 @@
   + [partition쓰는이유](https://hoing.io/archives/7909)
   + [partition과 groupby차이](https://towardsdatascience.com/how-to-use-group-by-and-partition-by-in-sql-f3d241846e3e)
 
+
+### [3] 풀이한 문제
+
+| 번호    | 테이블개수 |설명 |
+| ----- | -----------|---------- |
+|[0178-rank-scores](./0178-rank-scores) | 1 | `DENSE_RANK() OVER( ORDER BY COLNAME)` 의 사용법 <br> 점수가 주어질 때, 점수와 rank column 생성|
