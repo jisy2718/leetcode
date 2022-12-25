@@ -74,3 +74,5 @@
 | 번호    | 테이블개수 |설명 |
 | ----- | -----------|---------- |
 |[0178-rank-scores](./0178-rank-scores) | 1 | `DENSE_RANK() OVER( ORDER BY COLNAME)` 의 사용법 <br> 점수가 주어질 때, 점수와 rank column 생성|
+|[0180-consecutive-numbers](./0180-consecutive-numbers)|1| `where (id+1, num) in (select id, num in Logs)` 와 같은 문법 사용 <br> 연속으로 3번 이상 등장한 숫자 찾기
+|[0184-department-highest-salary](./0184-department-highest-salary)|2| `where (col1, col2) in (select col1, max(col2) in t2 group by col3)` <br> 부서별로 max 급여자 찾기 <br> `where` 하고, `left join` 순서 바꾼 것은 왜 안되는지..? |
